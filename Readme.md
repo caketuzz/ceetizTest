@@ -1,4 +1,5 @@
 # Test Ceetiz
+![Java CI](https://github.com/caketuzz/ceetizTest/workflows/Java%20CI/badge.svg)
 
 ## Rappel du problème
 
