@@ -1,0 +1,42 @@
+[
+  {
+    "type": "autoentreprise",
+    "denomination": "Emmanuel Steinitz Consulting",
+    "SIRET": "123456788901234",
+    "exercicesComptables": [
+      {
+        "annee": 2019,
+        "chiffreDAffaire": 2019.5,
+        "benefices": 1919.5,
+        "charges": 100
+      },
+      {
+        "annee": 2018,
+        "chiffreDAffaire": 1019.5,
+        "benefices": 919.5,
+        "charges": 100
+      }
+    ]
+  },
+  {
+    "type": "sas",
+    "denomination": "Ceetiz SAS",
+    "SIRET": "abcdefghijklmn",
+    "adresseSiegeSocial": " Paris",
+    "exercicesComptables": [
+      {
+        "annee": 2019,
+        "chiffreDAffaire": 1000000,
+        "benefices": 700000,
+        "charges": 300000
+      },
+      {
+        "annee": 2018,
+        "chiffreDAffaire": 500000,
+        "benefices": 300000,
+        "charges": 200000
+      }
+    ]
+  }
+
+]
