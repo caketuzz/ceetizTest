@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a8ad98d4-a5e7-4a8f-851f-0ffcf70369dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/caketuzz/model/Societe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caketuzz/model/Societe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,14 +303,22 @@
       <option name="project" value="LOCAL" />
       <updated>1583108382556</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="+ coverage badges">
+      <created>1583108749167</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583108749167</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+ badge in Readme.md" />
     <MESSAGE value="+ jacoco&#10;+ upload coverage to codecov" />
     <MESSAGE value="+ jacoco in gradle.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ jacoco in gradle.yml" />
+    <MESSAGE value="+ coverage badges" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ coverage badges" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Notifications" timestamp="1583103053180">
@@ -333,10 +341,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1583023825946" />
-    <state x="560" y="52" key="CommitChangelistDialog2" timestamp="1583108382433">
+    <state x="560" y="52" key="CommitChangelistDialog2" timestamp="1583108749047">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="560" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583108382433" />
+    <state x="560" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583108749047" />
     <state width="497" height="466" key="DebuggerActiveHint" timestamp="1583018988638">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -373,10 +381,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583104329856" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583108387394">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583108755451">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583108387394" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583108755451" />
     <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1583016379138">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

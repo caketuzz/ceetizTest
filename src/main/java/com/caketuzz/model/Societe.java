@@ -13,8 +13,34 @@ import java.util.ArrayList;
 
 public abstract class Societe {
 
-    /* PUBLIC ABSTRACT METHODS */
-    public abstract double calculImpot(int annee);
+
+    /* PRIVATE DATA */
+    protected String denomination;
+    protected String SIRET;
+    protected String adresseSiegeSocial;
+
+    public String getDenomination() {
+        return denomination;
+    }
+
+    public String getSIRET() {
+        return SIRET;
+    }
+
+    public String getAdresseSiegeSocial() {
+        return adresseSiegeSocial;
+    }
+
+    /* PROTECTED DATA */
+    protected ArrayList<ExerciceComptable> exercicesComptables;
+
+    protected ExerciceComptable getExerciceComptableByAnnee(int annee){
+        for (ExerciceComptable ex : exercicesComptables){
+            if (ex.getAnnee() == annee)
+                return ex;
+        }
+        return null;
+    }
 
     /* PUBLIC METHODS */
     public Societe(String denomination, String SIRET, String adresseSiegeSocial, String dataResource){
@@ -58,33 +84,9 @@ public abstract class Societe {
         return res;
     }
 
-    /* PRIVATE METHODS */
-    protected ExerciceComptable getExerciceComptableByAnnee(int annee){
-        for (ExerciceComptable ex : exercicesComptables){
-            if (ex.getAnnee() == annee)
-                return ex;
-        }
-        return null;
-    }
+    /* PUBLIC ABSTRACT METHODS */
+    public abstract double calculImpot(int annee);
 
-    /* PRIVATE DATA */
-    protected ArrayList<ExerciceComptable> exercicesComptables;
-
-    public String getDenomination() {
-        return denomination;
-    }
-
-    public String getSIRET() {
-        return SIRET;
-    }
-
-    public String getAdresseSiegeSocial() {
-        return adresseSiegeSocial;
-    }
-
-    protected String denomination;
-    protected String SIRET;
-    protected String adresseSiegeSocial;
 
 
 }
