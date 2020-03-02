@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8ad98d4-a5e7-4a8f-851f-0ffcf70369dd" name="Default Changelist" comment="" />
+    <list default="true" id="a8ad98d4-a5e7-4a8f-851f-0ffcf70369dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/gradle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gradle.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +56,18 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="CeetizTest" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CeetizTest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="reporting" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CeetizTest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
               <path>
@@ -72,7 +91,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YUwrunP7ptiiMcsFypdjSd6L6T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -80,6 +103,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
@@ -101,7 +125,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Whole project">
+  <component name="RunManager" selected="Gradle.ceetiz [jacocoTestReport]">
     <configuration name="RUN" type="Application" factoryName="Application">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.caketuzz.App" />
@@ -110,108 +134,98 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciceComptableTest.testMe" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ceetiz [applicationCodeCoverageReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.caketuzz.model.ExerciceComptableTest.testMe&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="applicationCodeCoverageReport" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SocieteTest.getAdresseSiegeSocial" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ceetiz [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.caketuzz.SocieteTest.getAdresseSiegeSocial&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="check" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SocieteTest.getExerciceComptableByAnnee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ceetiz [codeCoverageReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.caketuzz.SocieteTest.getExerciceComptableByAnnee&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="codeCoverageReport" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TresorPublicTest.addSociete" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ceetiz [jacocoTestCoverageVerification]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.caketuzz.TresorPublicTest.addSociete&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="jacocoTestCoverageVerification" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ceetiz [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ceetiz [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value="jacocoTestReport" />
           </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.caketuzz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
@@ -237,20 +251,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.RUN" />
-      <item itemvalue="Gradle.TresorPublicTest.addSociete" />
-      <item itemvalue="Gradle.ceetiz [test]" />
-      <item itemvalue="Gradle.SocieteTest.getExerciceComptableByAnnee" />
-      <item itemvalue="Gradle.SocieteTest.getAdresseSiegeSocial" />
-      <item itemvalue="Gradle.ExerciceComptableTest.testMe" />
       <item itemvalue="JUnit.Whole project" />
+      <item itemvalue="Gradle.ceetiz [jacocoTestReport]" />
+      <item itemvalue="Gradle.ceetiz [codeCoverageReport]" />
+      <item itemvalue="Gradle.ceetiz [applicationCodeCoverageReport]" />
+      <item itemvalue="Gradle.ceetiz [check]" />
+      <item itemvalue="Gradle.ceetiz [jacocoTestCoverageVerification]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ExerciceComptableTest.testMe" />
-        <item itemvalue="Gradle.SocieteTest.getAdresseSiegeSocial" />
-        <item itemvalue="Gradle.SocieteTest.getExerciceComptableByAnnee" />
-        <item itemvalue="Gradle.TresorPublicTest.addSociete" />
-        <item itemvalue="Gradle.ceetiz [test]" />
+        <item itemvalue="Gradle.ceetiz [jacocoTestReport]" />
+        <item itemvalue="Gradle.ceetiz [jacocoTestCoverageVerification]" />
+        <item itemvalue="Gradle.ceetiz [check]" />
+        <item itemvalue="Gradle.ceetiz [codeCoverageReport]" />
+        <item itemvalue="Gradle.ceetiz [applicationCodeCoverageReport]" />
       </list>
     </recent_temporary>
   </component>
@@ -265,9 +279,25 @@
       <option name="presentableId" value="Default" />
       <updated>1583010682572</updated>
     </task>
+    <task id="LOCAL-00001" summary="+ badge in Readme.md">
+      <created>1583102941773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583102941773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+ badge in Readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ badge in Readme.md" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Notifications" timestamp="1583103053180">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1583103053180" />
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583023989951">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -284,42 +314,50 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1583023825946" />
+    <state x="344" y="52" key="CommitChangelistDialog2" timestamp="1583102941503">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="344" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583102941503" />
     <state width="497" height="466" key="DebuggerActiveHint" timestamp="1583018988638">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="497" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1583018988638" />
-    <state width="1398" height="184" key="GridCell.Tab.0.bottom" timestamp="1583102303147">
+    <state width="1398" height="184" key="GridCell.Tab.0.bottom" timestamp="1583107304444">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="184" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583102303147" />
-    <state width="1398" height="184" key="GridCell.Tab.0.center" timestamp="1583102303146">
+    <state width="1398" height="184" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583107304444" />
+    <state width="1398" height="184" key="GridCell.Tab.0.center" timestamp="1583107304443">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="184" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583102303146" />
-    <state width="1398" height="184" key="GridCell.Tab.0.left" timestamp="1583102303145">
+    <state width="1398" height="184" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583107304443" />
+    <state width="1398" height="184" key="GridCell.Tab.0.left" timestamp="1583107304442">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="184" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583102303145" />
-    <state width="1398" height="184" key="GridCell.Tab.0.right" timestamp="1583102303147">
+    <state width="1398" height="184" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583107304442" />
+    <state width="1398" height="184" key="GridCell.Tab.0.right" timestamp="1583107304444">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="184" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583102303147" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583022666909">
+    <state width="1398" height="184" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583107304444" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583104329857">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583022666909" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1583022666908">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583104329857" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1583104329856">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583022666908" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1583022666908">
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583104329856" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1583104329855">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583022666908" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1583022666908">
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583104329855" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1583104329856">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583022666908" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583104329856" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583103067783">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583103067783" />
     <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1583016379138">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -332,6 +370,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="710" y="252" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1583026112488" />
+    <state x="412" y="248" key="git4idea.merge.GitPullDialog" timestamp="1583102838590">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="412" y="248" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1583102838590" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
