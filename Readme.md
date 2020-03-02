@@ -1,5 +1,9 @@
 # Test Ceetiz
-![Java CI](https://github.com/caketuzz/ceetizTest/workflows/Java%20CI/badge.svg)
+![Java CI](https://github.com/caketuzz/ceetizTest/workflows/Java%20CI/badge.svg) [![codecov](https://codecov.io/gh/caketuzz/ceetizTest/branch/master/graph/badge.svg)](https://codecov.io/gh/caketuzz/ceetizTest)
+
+![Coverage](https://codecov.io/gh/caketuzz/ceetizTest/branch/master/graphs/commits.svg)
+![Coverage](https://codecov.io/gh/caketuzz/ceetizTest/branch/master/graphs/sunburst.svg)
+
 
 ## Rappel du problème
 
